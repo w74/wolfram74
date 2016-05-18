@@ -1,0 +1,183 @@
+/**
+* Index
+* =========================
+* A. @font-face
+* B. Modules & Variables
+* C. Stylesheet
+*		01. Globals
+*		02. Typography
+*		03. Tree View
+*		04. Console View
+*/
+
+/**************************
+A. @font-face
+***************************/
+@font-face {font-family: "Autocode";
+	src: url("/css/autocode/atcd.eot"); /* IE9*/
+	src: url("/css/autocode/atcd.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	url("/css/autocode/atcd.woff2") format("woff2"), /* chrome、firefox */
+	url("/css/autocode/atcd.woff") format("woff"), /* chrome、firefox */
+	url("/css/autocode/atcd.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url("/css/autocode/atcd.svg#Autocode") format("svg"); /* iOS 4.1- */
+}
+
+/**************************
+B. Modules & Variables
+***************************/
+$black: #333;
+$white: #f0f0f0;
+$blue: #303078;
+$orange: #f07818;
+
+$fg: $white;
+$bg: $black;
+$accent: $orange;
+
+/**************************
+C. Stylesheet
+***************************/
+// 01. Globals
+*{
+	box-sizing: border-box;
+}
+html, body, ul{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Autocode", monospace;
+	font-size: 16px;
+	line-height: 1.3333;
+	color: $fg;
+	background-color: $bg;
+}
+ul{
+	list-style: none;
+}
+li:not(:last-child){
+	margin-bottom: 2em;
+}
+canvas{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: transparent;
+	z-index: -1;
+}
+#wrapper{
+	padding: 1.5rem 2rem;
+}
+
+// 02. Typography
+p{
+	margin: 0;
+	font-size: inherit;
+	& + p{
+		margin-top: 0.5em;
+	}
+}
+a{
+	position: relative;
+	text-decoration: none;
+	color: $accent;
+	&:not(.inline){
+		&::before{
+			content: "";
+			position: absolute;
+			bottom: -2px;
+			left: 0;
+			width: 0;
+			height: 2px;
+			background-color: $accent;
+			transition: width 0.333s ease-out;
+		}
+		&:hover::before{
+			width: 100%;
+		}
+	}
+	&.inline{
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+strike{
+	position: relative;
+	margin-right: 0.25em;
+	text-decoration: none;
+	color: darken($fg, 33%);
+	&::after{
+		content: "";
+		position: absolute;
+		top: 0.75em;
+		left: -3px;
+		width: calc(100% + 6px);
+		height: 0.125em;
+		background-color: darken($fg, 27.5%);
+	}
+}
+
+// 03. Tree View
+.tree{
+	display: inline-block;
+	padding-top: 2em;
+	width: 580px;
+	&.root{
+		display: none;
+	}
+}
+
+.node{
+	position: relative;
+	margin-left: 5em;
+	&::before, .lead-in{
+		content: "";
+		position: absolute;
+		background-color: $accent;
+	}
+	&::before{
+		left: -4em;
+		top: -1.25em;
+		width: 0.125em;
+		height: calc(100% + 2em);
+	}
+	&:last-child::before{
+		height: 2em;
+	}
+	.lead-in{
+		display: inline-block;
+		top: 0.65em;
+		left: -4em;
+		height: 0.125em;
+	}
+	.content{
+		opacity: 0;
+	}
+}
+
+.branch p{
+	display: inline-block;
+	cursor: pointer;
+	&::after{
+		content: "\02C5";
+		display: inline-block;
+		margin-left: -0.5em;
+		color: $accent;
+		font-weight: bold;
+		opacity: 0;
+		transition: all 0.25s ease-in;
+	}
+	&:hover, &.active{
+		&::after{
+			margin-left: 0.5em;
+			opacity: 1;
+		}
+	}
+}
+
+#heavy-dots{
+	position: fixed;
+}

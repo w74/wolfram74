@@ -8,6 +8,7 @@
 *		02. Typography
 *		03. Tree View
 *		04. Console View
+*		05. Responsive
 */
 
 /**************************
@@ -27,7 +28,7 @@ B. Modules & Variables
 ***************************/
 $black: #333;
 $white: #f0f0f0;
-$blue: #303078;
+$blue: #7070a8;
 $orange: #f07818;
 
 $fg: $white;
@@ -90,7 +91,7 @@ a{
 			bottom: -2px;
 			left: 0;
 			width: 0;
-			height: 2px;
+			height: .125em;
 			background-color: $accent;
 			transition: width 0.333s ease-out;
 		}
@@ -141,7 +142,7 @@ strike{
 	&::before{
 		left: -4em;
 		top: -1.25em;
-		width: 0.125em;
+		width: 2px;
 		height: calc(100% + 2em);
 	}
 	&:last-child::before{
@@ -151,7 +152,7 @@ strike{
 		display: inline-block;
 		top: 0.65em;
 		left: -4em;
-		height: 0.125em;
+		height: 2px;
 	}
 	.content{
 		opacity: 0;
@@ -180,4 +181,42 @@ strike{
 
 #heavy-dots{
 	position: fixed;
+}
+
+// 05. Responsive
+@media screen and (max-width: 640px){
+	body{
+		font-size: 14px;
+	}
+
+	#wrapper{
+		padding: 1rem;
+	}
+
+	.tree{
+		padding-top: 1em;
+		max-width: 100%;
+	}
+
+	.node{
+		margin-left: 2em;
+		&::before{
+			top: -0.5em;
+			left: -1em;
+		}
+		&:last-child::before{
+			transform: rotate(-45deg);
+			height: 0.5em;
+			top: 6px;
+			left: -12px;
+			width: 2px;
+		}
+		.lead-in{
+			display: none;
+		}
+	}
+
+	li:not(:last-child){
+		margin-bottom: 1em;
+	}
 }

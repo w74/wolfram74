@@ -39,7 +39,7 @@ $('body').on('click', '.branch p:not(.active)', function(e){
 				}, {
 					duration: 500,
 					easing: 'flicker',
-					delay: Math.random() * 750
+					delay: Math.random() * 500
 				});
 			}
 		});

@@ -1,43 +1,51 @@
 {
-	"root": "<p>Hello World.</p>",
+	"root": "<h1 tabindex=\"1\">Hello World.</h1>",
 	"tree": [{
-			"content": "<p>About Me</p>",
+			"content": "<h2 tabindex=\"2\">About Me</h2>",
 			"tree": [{
 					"content": "<p>My name is <strike>Inigo Montoya</strike> Wolfram and I am a multi-disciplinary web developer and experience designer. My specialty is in front-end development and designing new or uncommon interactions. In my spare time, I like to theorycraft, take things apart, and sometimes put them back together.</p><p>I am currently freelancing. You can find me in <strike>NYC</strike> <strike>Atlanta</strike> Chicago.</p>"
 				}, {
-					"content": "<p><a href=\"\" target=\"_blank\">LinkedIn</a> | <a href=\"\" target=\"_blank\">GitHub</a> | <a href=\"\" target=\"_blank\">Codepen</a></p>"
+					"content": "<p><a href=\"https://www.linkedin.com/in/wolfram74\" target=\"_blank\" tabindex=\"3\">LinkedIn</a> | <a href=\"https://github.com/w74\" target=\"_blank\" tabindex=\"4\">GitHub</a> | <a href=\"http://codepen.io/w74/\" target=\"_blank\" tabindex=\"5\">Codepen</a></p>"
 				}, {
-					"content": "<p><a href=\"#\" target=\"_blank\">PDF Résumé</a></p>"
+					"content": "<p><a href=\"#\" target=\"_blank\" tabindex=\"6\">PDF Résumé</a></p>"
 				}
 			]
 		}, {
-			"content": "<p>Works</p>",
+			"content": "<h2 tabindex=\"7\">Works</h2>",
 			"tree": [{
-					"content": "<p>DESIGNATION Labs</p>",
+					"content": "<h3 tabindex=\"8\">DESIGNATION Labs</h3>",
 					"tree": [{
 							"content": "<p>A design bootcamp located in Chicago that specializes in UI/UX education. I worked on both internal and public-facing projects as well as acted as the dev and UX mentor for the students.</p>"					
 						}, {
-							"content": "<p><a href=\"http://designation.io\" target=\"_blank\">See the Site</a></p>"
+							"content": "<p><a href=\"http://designation.io\" target=\"_blank\" tabindex=\"9\">See the Site</a></p>"
 						}
 					]
 				}, {
-					"content": "<p>Chicago City of Learning</p>",
+					"content": "<h3 tabindex=\"10\">Chicago City of Learning</h3>",
 					"tree": [{
 							"content": "<p>Initiative that focuses on pairing grade school students with learning opportunities that help develop their interests. Worked with the designers to refine the designs and eventually code the pages.</p>"
 						}, {
-							"content": "<p><a href=\"https://chicagocityoflearning.org\" target=\"_blank\">Explore the Site</a></p>"
+							"content": "<p><a href=\"https://chicagocityoflearning.org\" target=\"_blank\" tabindex=\"11\">Explore the Site</a></p>"
 						}
 					]
 				}, {
-					"content": "<p>Pieces of There</p>",
+					"content": "<h3 tabindex=\"12\">Focus Design Calendar</h3>",
+					"tree": [{
+							"content": "<p>A community events calendar for all things design in the Chicagoland area, created for AIGA and DESIGNATION. Designed by <a class=\"inline\" href=\"http://mollylester.com\" target=\"_blank\">Molly Lester</a>.</p>"
+						}, {
+							"content": "<p><a href=\"http://designation.io/focus\" target=\"_blank\" tabindex=\"13\">View the Calendar</a></p>"
+						}
+					]
+				}, {
+					"content": "<h3 tabindex=\"14\">Pieces of There</h3>",
 					"tree": [{
 							"content": "<p>E-commerce site to buy local products from small and artisan stores. Responsible for front-end.</p>"
 						}, {
-							"content": "<p>Site is <a href=\"http://piecesofthere.com\" target=\"_blank\">viewable</a> but no longer active.</p>"
+							"content": "<p>Site is <a href=\"http://piecesofthere.com\" target=\"_blank\" tabindex=\"15\">viewable</a> but no longer active.</p>"
 						}
 					]
 				}, {
-					"content": "<p>SkinIO</p>",
+					"content": "<h3 tabindex=\"16\">SkinIO</h3>",
 					"tree": [{
 							"content": "<p>Marketing page for a startup creating a brand new way for people to take care of their skin.</p>"
 						}, {
@@ -45,15 +53,15 @@
 						}
 					]
 				}, {
-					"content": "<p>Audiograph</p>",
+					"content": "<h3 tabindex=\"18\">Audiograph</h3>",
 					"tree": [{
 							"content": "<p>Self-initiated project: music visualizer built with PaperJS. Allows the user to upload his or her own .mp3 files as well.</p>"
 						}, {
-							"content": "<p><a href=\"http://audiograph.modulo.site\" target=\"_blank\">Play Some Music</a></p>"
+							"content": "<p><a href=\"http://audiograph.modulo.site\" target=\"_blank\" tabindex=\"19\">Play Some Music</a></p>"
 						}
 					]
 				}, {
-					"content": "<p>Non-dev. Projects</p>",
+					"content": "<h3 tabindex=\"20\">Non-dev. Projects</h3>",
 					"tree": [{
 							"content": "<p>SAIC | Service design project for <a class=\"inline\" href=\"http://www.saic.edu/cs\" target=\"_blank\">SAIC's Continuing Studies</a> program involving student aquisition and retention.</p>"
 						}, {
@@ -63,15 +71,15 @@
 				}
 			]
 		}, {
-			"content": "<p>Contact</p>",
+			"content": "<h2 tabindex=\"21\">Contact</h2>",
 			"tree": [{
-					"content": "<p><a href=\"tel:7326850791\">Phone:</a> 732-685-0791</p>"
+					"content": "<p><a href=\"tel:7326850791\" tabindex=\"22\">Phone:</a> 732-685-0791</p>"
 				}, {
-					"content": "<p><a href=\"mailto:wolfram.rong@gmail.com\">Email:</a> wolfram.rong@gmail.com</p>"
+					"content": "<p><a href=\"mailto:wolfram.rong@gmail.com\" tabindex=\"23\">Email:</a> wolfram.rong@gmail.com</p>"
 				}, {
-					"content": "<p><a href=\"\" target=\"_blank\">LinkedIn</a> | <a href=\"\" target=\"_blank\">GitHub</a> | <a href=\"\" target=\"_blank\">Codepen</a></p>"
+					"content": "<p><a href=\"https://www.linkedin.com/in/wolfram74\" target=\"_blank\" tabindex=\"24\">LinkedIn</a> | <a href=\"https://github.com/w74\" target=\"_blank\" tabindex=\"25\">GitHub</a> | <a href=\"http://codepen.io/w74/\" target=\"_blank\" tabindex=\"26\">Codepen</a></p>"
 				}, {
-					"content": "<p>Overwatch: Atlas#13254</p>"
+					"content": "<p>Overwatch: Atlas#13542</p>"
 				}
 			]
 		}

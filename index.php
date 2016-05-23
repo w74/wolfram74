@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>W74</title>
   <meta charset="UTF-8">
@@ -8,7 +8,10 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div id="wrapper">
+  <div id="logo">
+    
+  </div>
+  <div id="wrapper">
 		<?php include('comps/view_tree.php'); ?>
 	</div>
 	<?php #include('comps/view_console.php'); ?>

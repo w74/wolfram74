@@ -12,7 +12,10 @@ $(document).ready(function(){
 	Event (click, non-active branch)
   	-> opens branch and sets it as active
  */
-$('body').on('click', '.branch p:not(.active)', function(e){
+$('body').on('click keyup', '.branch > *:not(.active)', function(e){
+	if(e.keyCode && e.keyCode !== 13){
+		return;
+	}
 	$(this).addClass('active');
 	var tree = $(this).parent().next('.tree');
 	var nodes = tree.children('.node');
@@ -46,7 +49,10 @@ $('body').on('click', '.branch p:not(.active)', function(e){
 	});
 });
 
-$('body').on('click', '.branch p.active', function(){
+$('body').on('click keyup', '.branch > *.active', function(e){
+	if(e.keyCode && e.keyCode !== 13){
+		return;
+	}
 	$(this).removeClass('active');
 	var tree = $(this).parent().next('.tree');
 	tree.velocity('slideUp', {

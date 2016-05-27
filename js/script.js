@@ -5,6 +5,13 @@ $(document).ready(function(){
 
 	// Set text-indent property for command line
 	$('[name=command]').css('text-indent', $('[for=command]').outerWidth());
+
+	// Show logo animation
+	$('.logo-version #w, .logo-version #t, .logo-version #f').css({
+		'animation-play-state': 'running',
+		'-webkit-animation-play-state': 'running',
+		'-moz-animation-play-state': 'running'
+	});
 });
 
 

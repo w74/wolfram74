@@ -6,9 +6,10 @@
 * C. Stylesheet
 *		01. Globals
 *		02. Typography
-*		03. Tree View
-*		04. Console View
-*		05. Responsive
+*		03. Logo
+*		04. Tree View
+*		05. Console View
+*		06. Responsive
 */
 
 /**************************
@@ -28,7 +29,7 @@ B. Modules & Variables
 ***************************/
 $black: #333;
 $white: #f0f0f0;
-$blue: #7070a8;
+$wolf: #747474;
 $orange: #f07818;
 
 $fg: $white;
@@ -59,23 +60,24 @@ ul{
 li:not(:last-child){
 	margin-bottom: 2em;
 }
-canvas{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	background-color: transparent;
-	z-index: -1;
+#logo{
+	display: inline-block;
+	padding-top: 1.5rem;
+	padding-left: 2rem;
+	width: 150px;
+	vertical-align: top;
 }
 #wrapper{
+	display: inline-block;
+	width: calc(100% - 166px);
 	padding: 1.5rem 2rem;
 }
 
 // 02. Typography
-p{
+p, h1, h2, h3, h4, h5, h6{
 	margin: 0;
-	font-size: inherit;
+	font-size: 1em;
+	font-weight: normal;
 	& + p{
 		margin-top: 0.5em;
 	}
@@ -121,7 +123,48 @@ strike{
 	}
 }
 
-// 03. Tree View
+// 03. Logo
+.logo-version{
+	width: 100%;
+	max-width: 360px;
+	&.horizontal{
+		display: none;
+	}
+
+	&.one{
+		#w, #t, #f{
+			fill-opacity: 0;
+			stroke: $accent;
+		  stroke-width: 5;
+		  stroke-dasharray: 600;
+		  stroke-dashoffset: -600;
+			animation-name: one;
+		}
+	}
+}
+#w, #t, #f{
+	fill: $wolf;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+  animation-play-state: paused;
+}
+
+@keyframes one{
+	80%{
+		fill-opacity: 0;
+		stroke-dashoffset: 0;
+		stroke-opacity: 1;
+	}
+	100%{
+		fill-opacity: 1;
+		stroke-dashoffset: 0;
+		stroke-opacity: 0;
+	}
+}
+
+
+// 04. Tree View
 .tree{
 	display: inline-block;
 	padding-top: 2em;
@@ -159,19 +202,29 @@ strike{
 	}
 }
 
-.branch p{
+.branch > *{
 	display: inline-block;
 	cursor: pointer;
+	&:focus{
+		&::after{
+			margin-left: 0.5em;
+			color: $wolf;
+			opacity: 1;
+		}
+	}
 	&::after{
 		content: "\02C5";
 		display: inline-block;
 		margin-left: -0.5em;
+		vertical-align: sub;
 		color: $accent;
+		line-height: 0.75;
 		font-weight: bold;
 		opacity: 0;
 		transition: all 0.25s ease-in;
 	}
-	&:hover, &.active{
+	&:hover, &.active, &:focus{
+		outline: none;
 		&::after{
 			margin-left: 0.5em;
 			opacity: 1;
@@ -183,7 +236,31 @@ strike{
 	position: fixed;
 }
 
-// 05. Responsive
+// 06. Responsive
+@media screen and (max-width: 1024px){
+	#logo, #wrapper{
+		display: block;
+		width: auto;
+	}
+	.logo-version{
+		&.horizontal{
+			display: block;
+		}
+		&.vertical{
+			display: none;
+		}
+	}
+	.tree{
+		width: 100%;
+		max-width: 720px;
+
+		&.root{
+			width: 100%;
+			max-width: none;
+		}
+	}
+}
+
 @media screen and (max-width: 640px){
 	body{
 		font-size: 14px;
@@ -191,6 +268,10 @@ strike{
 
 	#wrapper{
 		padding: 1rem;
+	}
+	#logo{
+		padding-top: 1rem;
+		padding-left: 1rem;
 	}
 
 	.tree{

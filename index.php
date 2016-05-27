@@ -1,3 +1,5 @@
+<?php require 'vendor/autoload.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +11,8 @@
 </head>
 <body>
   <div id="logo">
-    
+    <?php include('img/logo-1-v.svg'); ?>
+    <?php include('img/logo-1-h.svg'); ?>
   </div>
   <div id="wrapper">
 		<?php include('comps/view_tree.php'); ?>

@@ -1,85 +1,83 @@
 {
-	"root": "<h1>Hello World.</h1>",
+	"root": "#Hello World.",
 	"tree": [{
-			"content": "<h2>About Me</h2>",
+			"content": "##About Me",
 			"tree": [{
-					"content": "<p>My name is <strike>Inigo Montoya</strike> Wolfram and I am a multi-disciplinary web developer and experience designer. My specialty is in front-end development and designing new or uncommon interactions. In my spare time, I like to theorycraft, take things apart, and sometimes put them back together.</p><p>I am currently freelancing. You can find me in <strike>NYC</strike> <strike>Atlanta</strike> Chicago.</p>"
+					"content": "My name is ~~Inigo Montoya~~ Wolfram and I am a multi disciplinary web developer and experience designer. My specialty is in front-end development and designing new or uncommon interactions. In my spare time, I like to theorycraft, take things apart, and sometimes put them back together.\n\nI am currently freelancing. You can find me in ~~NYC~~ ~~Atlanta~~ Chicago."
 				}, {
-					"content": "<p><a href=\"https://www.linkedin.com/in/wolfram74\" target=\"_blank\" >LinkedIn</a> | <a href=\"https://github.com/w74\" target=\"_blank\" >GitHub</a> | <a href=\"http://codepen.io/w74/\" target=\"_blank\" >Codepen</a></p>"
+					"content": "[LinkedIn](https://www.linkedin.com/in/wolfram74) | [GitHub](https://github.com/w74) | [Codepen](http://codepen.io/w74)"
 				}, {
-					"content": "<p><a href=\"#\" target=\"_blank\">PDF Résumé</a></p>"
+					"content": "[PDF Résumé]()"
 				}
 			]
 		}, {
-			"content": "<h2>Works</h2>",
+			"content": "##Works",
 			"tree": [{
-					"content": "<h3>DESIGNATION Labs</h3>",
+					"content": "###DESIGNATION Labs",
 					"tree": [{
-							"content": "<p>A design bootcamp located in Chicago that specializes in UI/UX education. I worked on both internal and public-facing projects as well as acted as the dev and UX mentor for the students.</p>"					
+							"content": "A design bootcamp located in Chicago that specializes in UI/UX education. I worked on both internal and public-facing projects as well as acted as the dev and UX mentor for the students."					
 						}, {
-							"content": "<p><a href=\"http://designation.io\" target=\"_blank\" >See the Site</a></p>"
+							"content": "[See the Site](http://designation.io)"
 						}
 					]
 				}, {
-					"content": "<h3>Chicago City of Learning</h3>",
+					"content": "###Chicago City of Learning",
 					"tree": [{
-							"content": "<p>Initiative that focuses on pairing grade school students with learning opportunities that help develop their interests. Worked with the designers to refine the designs and eventually code the pages.</p>"
+							"content": "Initiative that focuses on pairing grade school students with learning opportunities that help develop their interests. Worked with the designers to refine the designs and eventually code the pages."
 						}, {
-							"content": "<p><a href=\"https://chicagocityoflearning.org\" target=\"_blank\" >Explore the Site</a></p>"
+							"content": "[Explore the Site](https://chicagocityoflearning.org)"
 						}
 					]
 				}, {
-					"content": "<h3>Focus Design Calendar</h3>",
+					"content": "###Focus Design Calendar",
 					"tree": [{
-							"content": "<p>A community events calendar for all things design in the Chicagoland area, created for AIGA and DESIGNATION. Designed by <a class=\"inline\" href=\"http://mollylester.com\" target=\"_blank\">Molly Lester</a>.</p>"
+							"content": "A community events calendar for all things design in the Chicagoland area, created for AIGA and DESIGNATION. Designed by <a class='inline' href='http://mollylester.com' target='_blank'>Molly Lester</a>."
 						}, {
-							"content": "<p><a href=\"http://designation.io/focus\" target=\"_blank\" >View the Calendar</a></p>"
+							"content": "[View the Calendar](http://designation.io/focus)"
 						}
 					]
 				}, {
-					"content": "<h3>Pieces of There</h3>",
+					"content": "###Pieces of There",
 					"tree": [{
-							"content": "<p>E-commerce site to buy local products from small and artisan stores. Responsible for front-end.</p>"
+							"content": "E-commerce site to buy local products from small and artisan stores. Responsible for front-end."
 						}, {
-							"content": "<p>Site is <a href=\"http://piecesofthere.com\" target=\"_blank\" >viewable</a> but no longer active.</p>"
+							"content": "Site is [viewable](http://piecesofthere.com) but no longer active."
 						}
 					]
 				}, {
-					"content": "<h3>SkinIO</h3>",
+					"content": "###SkinIO",
 					"tree": [{
-							"content": "<p>Marketing page for a startup creating a brand new way for people to take care of their skin.</p>"
+							"content": "Marketing page for a startup creating a brand new way for people to take care of their skin."
 						}, {
-							"content": "<p><strike>See the Site</strike> Site currently unpublished.</p>"
+							"content": "~~See the Site~~ Site currently unpublished."
 						}
 					]
 				}, {
-					"content": "<h3>Audiograph</h3>",
+					"content": "###Audiograph",
 					"tree": [{
-							"content": "<p>Self-initiated project: music visualizer built with PaperJS. Allows the user to upload his or her own .mp3 files as well.</p>"
+							"content": "Self-initiated project: music visualizer built with PaperJS. Allows the user to upload his or her own .mp3 files as well."
 						}, {
-							"content": "<p><a href=\"http://audiograph.modulo.site\" target=\"_blank\" >Play Some Music</a></p>"
+							"content": "[Play Some Music](http://audiograph.modulo.site)"
 						}
 					]
 				}, {
-					"content": "<h3>Non-dev. Projects</h3>",
+					"content": "###Non-dev. Projects",
 					"tree": [{
-							"content": "<p>SAIC | Service design project for <a class=\"inline\" href=\"http://www.saic.edu/cs\" target=\"_blank\">SAIC's Continuing Studies</a> program involving student aquisition and retention.</p>"
+							"content": "SAIC | Service design project for <a class='inline' href='http://www.saic.edu/cs' target='_blank'>SAIC's Continuing Studies</a> program involving student aquisition and retention."
 						}, {
-							"content": "<p><a class=\"inline\" href=\"http://erasingthedistance.org\" target=\"_blank\">Erasing the Distance</a> | Service design project for a NPO raising social awareness of mental illness. Project was primarily focused on making internal financial processes more efficient.</p>"
+							"content": "<a class='inline' href='http://erasingthedistance.org' target='_blank'>Erasing the Distance</a> | Service design project for a NPO raising social awareness of mental illness. Project was primarily focused on making internal financial processes more efficient."
 						}
 					]
 				}
 			]
 		}, {
-			"content": "<h2>Contact</h2>",
+			"content": "##Contact",
 			"tree": [{
-					"content": "<p><a href=\"tel:7326850791\" >Phone:</a> 732-685-0791</p>"
+					"content": "[Phone:](tel:7326850791) 732-685-0791"
 				}, {
-					"content": "<p><a href=\"mailto:wolfram.rong@gmail.com\" >Email:</a> wolfram.rong@gmail.com</p>"
+					"content": "[Email:](mailto:wolfram.rong@gmail.com) wolfram.rong@gmail.com"
 				}, {
-					"content": "<p><a href=\"https://www.linkedin.com/in/wolfram74\" target=\"_blank\">LinkedIn</a> | <a href=\"https://github.com/w74\" target=\"_blank\" >GitHub</a> | <a href=\"http://codepen.io/w74/\" target=\"_blank\">Codepen</a></p>"
-				}, {
-					"content": "<p>Overwatch: Atlas#13542</p>"
+					"content": "[LinkedIn](https://www.linkedin.com/in/wolfram74) | [GitHub](https://github.com/w74) | [Codepen](http://codepen.io/w74)"
 				}
 			]
 		}

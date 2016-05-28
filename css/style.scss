@@ -107,7 +107,7 @@ a{
 		}
 	}
 }
-strike{
+del{
 	position: relative;
 	margin-right: 0.25em;
 	text-decoration: none;
@@ -202,39 +202,44 @@ strike{
 	}
 }
 
-.branch > *{
+.branch{
 	display: inline-block;
-	cursor: pointer;
+
 	&:focus{
-		&::after{
+		& > *::after{
 			margin-left: 0.5em;
 			color: $wolf;
 			opacity: 1;
 		}
 	}
-	&::after{
-		content: "\02C5";
-		display: inline-block;
-		margin-left: -0.5em;
-		vertical-align: sub;
-		color: $accent;
-		line-height: 0.75;
-		font-weight: bold;
-		opacity: 0;
-		transition: all 0.25s ease-in;
-	}
 	&:hover, &.active, &:focus{
 		outline: none;
-		&::after{
+		& > *::after{
 			margin-left: 0.5em;
 			opacity: 1;
 		}
 	}
+
+	& > *{
+		display: inline-block;
+		cursor: pointer;
+		&::after{
+			content: "\02C5";
+			display: inline-block;
+			margin-left: -0.5em;
+			vertical-align: baseline;
+			color: $accent;
+			line-height: 0.75;
+			font-weight: bold;
+			opacity: 0;
+			transition: all 0.25s ease-in;
+		}
+	}
 }
 
-#heavy-dots{
-	position: fixed;
-}
+// #heavy-dots{
+// 	position: fixed;
+// }
 
 // 06. Responsive
 @media screen and (max-width: 1024px){

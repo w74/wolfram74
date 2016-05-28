@@ -42,6 +42,8 @@
 							"content": "E-commerce site to buy local products from small and artisan stores. Responsible for front-end."
 						}, {
 							"content": "Site is [viewable](http://piecesofthere.com) but no longer active."
+						}, {
+							"content": "[Concept Prototype](https://github.com/w74/pieces-there)"
 						}
 					]
 				}, {
@@ -58,6 +60,8 @@
 							"content": "Self-initiated project: music visualizer built with PaperJS. Allows the user to upload his or her own .mp3 files as well."
 						}, {
 							"content": "[Play Some Music](http://audiograph.modulo.site)"
+						}, {
+							"content": "[Source Code](https://github.com/w74/audiograph)"
 						}
 					]
 				}, {
@@ -66,8 +70,12 @@
 							"content": "SAIC | Service design project for <a class='inline' href='http://www.saic.edu/cs' target='_blank'>SAIC's Continuing Studies</a> program involving student aquisition and retention."
 						}, {
 							"content": "<a class='inline' href='http://erasingthedistance.org' target='_blank'>Erasing the Distance</a> | Service design project for a NPO raising social awareness of mental illness. Project was primarily focused on making internal financial processes more efficient."
+						}, {
+							"content": "<a class='inline' href='http://campfires.io' target='_blank'>Campfires.io</a> | Design blog that publishes weekly interviews with notable people in the design world and gives a glimpse into each designer's method to his or her madness."
 						}
 					]
+				}, {
+					"content": "[Source code](https://github.com/w74/wolfram74) for this site!"
 				}
 			]
 		}, {

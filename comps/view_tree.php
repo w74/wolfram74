@@ -8,7 +8,7 @@ echo("<div role='tablist' aria-multiselectable='true'>
         <div class='root branch' id='" . get_id('b')
           . "' aria-controls='" . get_id('c')
           . "' tabindex='" . get_id('t')
-          . "' role='tab' aria-selected='true' aria-expanded='false'>"
+          . "' role='tab' aria-expanded='false'>"
             . $parse->text($json['root'])
         . "</div>
         <ul class='tree root' id='" . get_id('c')

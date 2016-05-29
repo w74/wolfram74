@@ -15,7 +15,6 @@ $(document).ready(function(){
 
 	// Opens branch and sets it as active
 	$('.branch').on('click keyup', function(e){
-		console.log('a');
 		// checks if key is the Enter key
 		if(e.keyCode && e.keyCode !== 13){return;}
 
@@ -23,20 +22,22 @@ $(document).ready(function(){
 		
 		// if branch is active, close itself and all subsequent branches
 		if($(this).hasClass('active')){
-			$(this).removeClass('active');
+			$(this).removeClass('active').attr('aria-expanded', 'false');
+			tree.attr('aria-hidden', 'true');
 			tree.velocity('slideUp', {
 				duration: 400,
 				easing: 'easeOutCubic',
 				complete: function(){
-					tree.find('.tree').velocity('slideUp');
-					tree.find('.branch.active').removeClass('active');
+					tree.find('.tree').velocity('slideUp').attr('aria-hidden', 'true');
+					tree.find('.branch.active').removeClass('active').attr('aria-expanded', 'false');
 					tree.find('.content').css('opacity', 0);
 					tree.find('.lead-in').css('width', 0);
 				}
 			});
 		} else {
 			// if branch isn't active, expand it and display line animation
-			$(this).addClass('active');
+			$(this).addClass('active').attr("aria-expanded", "true");
+			tree.attr('aria-hidden', 'false');
 			var nodes = tree.children('.node');
 			tree.velocity('slideDown', {
 				duration: 400 * nodes.length,

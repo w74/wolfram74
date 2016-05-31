@@ -11,8 +11,11 @@
 </head>
 <body>
   <div id="logo">
-    <?php include('img/logo-1-v.svg'); ?>
-    <?php include('img/logo-1-h.svg'); ?>
+    <?php include('resc/logo-1-v.svg'); ?>
+    <?php include('resc/logo-1-h.svg'); ?>
+    <audio id="d3" src="resc/d3.mp3" autobuffer></audio>
+    <audio id="e3" src="resc/e3.mp3" autobuffer></audio>
+    <audio id="a3" src="resc/a3.mp3" autobuffer></audio>
   </div>
   <div id="wrapper">
 		<?php include('comps/view_tree.php'); ?>

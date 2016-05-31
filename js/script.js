@@ -1,3 +1,5 @@
+"use strict";
+
 $(document).ready(function(){
 	// Hide all tree branches 
 	$('.tree').css('display', 'none');
@@ -64,6 +66,25 @@ $(document).ready(function(){
 		}
 	});
 });
+
+// notes on logo
+$('#w, #t, #f').click(function(e){
+	let note = undefined;
+	switch(this.id){
+		case 'w':
+			note = document.getElementById('d3');
+			break;
+		case 't':
+			note = document.getElementById('e3');
+			break;
+		case 'f':
+			note = document.getElementById('a3');
+			break;
+	}
+	note.currentTime = 0;
+	note.play();
+});
+
 
 $.Velocity.Easings.flicker = function(p){
 	return p * Math.abs( Math.sin( 3.5 * Math.PI * p ) );

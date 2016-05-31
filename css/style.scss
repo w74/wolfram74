@@ -62,7 +62,7 @@ body{
 	font-size: 16px;
 	line-height: 1.3333;
 	color: $fg;
-	background-color: $bg;
+	background-image: url('../resc/gridwise.png');
 }
 ul{
 	list-style: none;
@@ -153,11 +153,15 @@ del{
 	}
 }
 #w, #t, #f{
-	fill: $wolf;
+	fill: #555;
 	animation-duration: 3s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-out;
   animation-play-state: paused;
+
+  &:hover{
+  	fill: $wolf;
+  }
 }
 
 @keyframes one{
@@ -285,6 +289,9 @@ del{
 	#logo{
 		padding-top: 1rem;
 		padding-left: 1rem;
+	}
+	.logo-version{
+		max-width: 240px;
 	}
 
 	.tree{

@@ -15,7 +15,7 @@
 			"tree": [{
 					"content": "###DESIGNATION Labs",
 					"tree": [{
-							"content": "A design bootcamp located in Chicago that specializes in UI/UX education. I worked on both internal and public-facing projects as well as acted as a dev and UX mentor for the students."					
+							"content": "A design bootcamp located in Chicago that specializes in UI/UX education. Wrote front-end and back-end code with HTML, CSS, JS, on the LAMP stack. Debugged and optimized existing codebase as well as other developers' code.\n\nAlso acted as a dev and UX mentor for students, responsible for running workshops and assisting with design tasks."
 						}, {
 							"content": "[See the Site](http://designation.io)"
 						}
@@ -23,15 +23,15 @@
 				}, {
 					"content": "###Chicago City of Learning",
 					"tree": [{
-							"content": "Initiative that focuses on pairing grade school students with learning opportunities that help develop their interests. Worked with the designers to refine the designs and eventually code the pages."
+							"content": "Initiative that focuses on pairing grade school students with learning opportunities that help develop their interests.\n\nWorked with the designers at <a class='inline' href='http://adjustcreative.com'>Adjust Creative</a> to refine the designs and eventually code the pages. Worked on the front-end portion with Foundation and JS."
 						}, {
-							"content": "[Explore the Site](https://chicagocityoflearning.org)"
+							"content": "[See the Site](https://chicagocityoflearning.org)"
 						}
 					]
 				}, {
 					"content": "###Focus Design Calendar",
 					"tree": [{
-							"content": "A community events calendar for all things design in the Chicagoland area, created for AIGA and DESIGNATION. Designed by <a class='inline' href='http://mollylester.com' target='_blank'>Molly Lester</a>."
+							"content": "A community events calendar for all things design in the Chicagoland area, created for AIGA and DESIGNATION. Designed by <a class='inline' href='http://mollylester.com'>Molly Lester</a>. Coded as a Wordpress theme."
 						}, {
 							"content": "[View the Calendar](http://designation.io/focus)"
 						}
@@ -39,17 +39,17 @@
 				}, {
 					"content": "###Pieces of There",
 					"tree": [{
-							"content": "E-commerce site to buy local products from small and artisan stores. Responsible for front-end."
+							"content": "E-commerce site to buy local products from small and artisan stores. Created an HTML Prototype based off designs by <a class='inline' href='http://myom.design'>Michael Yom</a> and <a class='inline' href='http://acadesign.co'>Adrian Aras</a>. Eventually ported to Shopify."
 						}, {
 							"content": "Site is [viewable](http://piecesofthere.com) but no longer active."
 						}, {
-							"content": "[Concept Prototype](https://github.com/w74/pieces-there)"
+							"content": "[Prototype Code](https://github.com/w74/pieces-there)"
 						}
 					]
 				}, {
 					"content": "###SkinIO",
 					"tree": [{
-							"content": "Marketing page for a startup creating a brand new way for people to take care of their skin."
+							"content": "Marketing page for a startup creating a brand new way for people to take care of their skin. Designed by <a class='inline' href='http://jjleedesign.com'>JJ Lee</a>."
 						}, {
 							"content": "~~See the Site~~ Site currently unpublished."
 						}
@@ -65,25 +65,25 @@
 						}
 					]
 				}, {
-					"content": "###Non-dev. Projects",
-					"tree": [{
-							"content": "SAIC | Service design project for <a class='inline' href='http://www.saic.edu/cs' target='_blank'>SAIC's Continuing Studies</a> program involving student aquisition and retention."
-						}, {
-							"content": "<a class='inline' href='http://erasingthedistance.org' target='_blank'>Erasing the Distance</a> | Service design project for a NPO raising social awareness of mental illness. Project was primarily focused on making internal financial processes more efficient."
-						}, {
-							"content": "<a class='inline' href='http://campfires.io' target='_blank'>Campfires.io</a> | Design blog that publishes weekly interviews with notable people in the design world and gives a glimpse into each designer's method to his or her madness."
-						}
-					]
-				}, {
 					"content": "[Source code](https://github.com/w74/wolfram74) for this site!"
+				}
+			]
+		}, {
+			"content": "##Non-dev. Projects",
+			"tree": [{
+					"content": "SAIC | Service design project for <a class='inline' href='http://www.saic.edu/cs'>SAIC's Continuing Studies</a> program. Conducted user and alumni research, created personas and drew up storyboards."
+				}, {
+					"content": "<a class='inline' href='http://erasingthedistance.org'>Erasing the Distance</a> | Service design project for a NPO. Project was primarily focused on making internal financial processes more efficient. Conducted employee and management interviews to create a \"plug-and-play\" pricing calculator."
+				}, {
+					"content": "<a class='inline' href='http://campfires.io'>Campfires.io</a> | Design blog that publishes weekly interviews with notable people in the design world. Sourced, edited, and published the blog copy and media."
 				}
 			]
 		}, {
 			"content": "##Contact",
 			"tree": [{
-					"content": "[Phone:](tel:7326850791) 732-685-0791"
+					"content": "Phone: [732-685-0791](tel:7326850791)"
 				}, {
-					"content": "[Email:](mailto:wolfram.rong@gmail.com) wolfram.rong@gmail.com"
+					"content": "Email: [wolfram.rong@gmail.com](mailto:wolfram.rong@gmail.com)"
 				}, {
 					"content": "[LinkedIn](https://www.linkedin.com/in/wolfram74) | [GitHub](https://github.com/w74) | [Codepen](http://codepen.io/w74)"
 				}

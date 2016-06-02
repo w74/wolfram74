@@ -5,15 +5,15 @@ $(document).ready(function(){
 	$('.tree').css('display', 'none');
 	$('.content').before('<span class="lead-in"></span>');
 
-	// Set text-indent property for command line
-	$('[name=command]').css('text-indent', $('[for=command]').outerWidth());
-
 	// Show logo animation
 	$('.logo-version #w, .logo-version #t, .logo-version #f').css({
 		'animation-play-state': 'running',
 		'-webkit-animation-play-state': 'running',
 		'-moz-animation-play-state': 'running'
 	});
+
+	// Adds target="_blank" to all anchors
+	$('a').attr('target', '_blank');
 
 	// Opens branch and sets it as active
 	$('.branch').on('click keyup', function(e){
@@ -68,21 +68,32 @@ $(document).ready(function(){
 });
 
 // notes on logo
+var lrrr = "^";
 $('#w, #t, #f').click(function(e){
 	let note = undefined;
 	switch(this.id){
 		case 'w':
 			note = document.getElementById('d3');
+			lrrr += "1";
 			break;
 		case 't':
 			note = document.getElementById('e3');
+			lrrr += "2";
 			break;
 		case 'f':
 			note = document.getElementById('a3');
+			lrrr += "3";
 			break;
 	}
 	note.currentTime = 0;
 	note.play();
+
+	if("22331122".match(RegExp(lrrr))){
+		if(lrrr === "^22331122"){
+			$('h1, h2, h3, h4, h5, h6, p').text("ALL HAIL HYPNOTOAD!");
+			lrrr = "^";
+		}
+	} else { lrrr = "^"; }
 });
 
 

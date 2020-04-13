@@ -3,21 +3,29 @@
 	"tree": [{
 			"content": "##About Me",
 			"tree": [{
-					"content": "My name is ~~Inigo Montoya~~ Wolfram and I am a multi disciplinary web developer and experience designer. My specialty is in front-end development and designing new or uncommon interactions. In my spare time, I like to theorycraft, take things apart, and sometimes put them back together.\n\nI am currently available for hire for either full-time or freelance positions. You can find me in ~~NYC~~ ~~Atlanta~~ Chicago."
+					"content": "Hi! I'm Wolfram and I am a full-stack developer working primarily on the LAMP stack (although the 'A' has now become more 'AWS' than 'Apache'). Outside of coding, I'm a board gamer, movie buff, and tea enthusiast.\n\nI am currently available for freelance projects. You can currently find me in Chicago."
 				}, {
-					"content": "[LinkedIn](https://www.linkedin.com/in/wolfram74) | [GitHub](https://github.com/w74) | [Codepen](http://codepen.io/w74)"
+					"content": "Email: [wolfram.rong@gmail.com](mailto:wolfram.rong@gmail.com)"
 				}, {
-					"content": "[PDF Résumé](/resc/resume.pdf)"
+					"content": "[LinkedIn](https://www.linkedin.com/in/wolfram74) | [GitHub](https://github.com/w74)"
 				}
 			]
 		}, {
 			"content": "##Works",
 			"tree": [{
+					"content": "###ActiveCampaign",
+					"tree": [{
+							"content": "Email marketing platform. Worked on: feature work both on the back-end (LAMP, Laravel) and front-end (EmberJS), maintaining a large legacy monolith codebase and migrating it to (micro)services, and setting up deployment pipelines using Docker/Kubernetes.\n\nAdditionally worked on creating a CSS design system for our marketing site, internal tooling for developers, and creating a company-wide logging (ELK) and metrics (on DataDog) system."
+						}, {
+							"content": "[See the Site](https://www.activecampaign.com)"
+						}
+					]
+				}, {
 					"content": "###DESIGNATION Labs",
 					"tree": [{
-							"content": "A design bootcamp located in Chicago that specializes in UI/UX education. Wrote front-end and back-end code with HTML, CSS, JS, on the LAMP stack. Debugged and optimized existing codebase as well as other developers' code.\n\nAlso acted as a dev and UX mentor for students, responsible for running workshops and assisting with design tasks."
+							"content": "A design bootcamp located in Chicago that specializes in UI/UX education. Either created or maintained all online sites and resources.\n\nAlso acted as a dev and UX mentor for students, responsible for running workshops and assisting with design tasks."
 						}, {
-							"content": "[See the Site](http://designation.io)"
+							"content": "~~Designation.io~~ [Now a Part of Flatiron](https://flatironschool.com)"
 						}
 					]
 				}, {
@@ -29,35 +37,17 @@
 						}
 					]
 				}, {
-					"content": "###Focus Design Calendar",
-					"tree": [{
-							"content": "A community events calendar for all things design in the Chicagoland area, created for AIGA and DESIGNATION. Designed by <a class='inline' href='http://mollylester.com'>Molly Lester</a>. Coded as a Wordpress theme."
-						}, {
-							"content": "[View the Calendar](http://designation.io/focus)"
-						}
-					]
-				}, {
-					"content": "###Pieces of There",
-					"tree": [{
-							"content": "E-commerce site to buy local products from small and artisan stores. Created an HTML Prototype based off designs by <a class='inline' href='http://myom.design'>Michael Yom</a> and <a class='inline' href='http://acadesign.co'>Adrian Aras</a>. Eventually ported to Shopify."
-						}, {
-							"content": "Site is [viewable](http://piecesofthere.com) but no longer active."
-						}, {
-							"content": "[Prototype Code](https://github.com/w74/pieces-there)"
-						}
-					]
-				}, {
 					"content": "###SkinIO",
 					"tree": [{
 							"content": "Marketing page for a startup creating a brand new way for people to take care of their skin. Designed by <a class='inline' href='http://jjleedesign.com'>JJ Lee</a>."
 						}, {
-							"content": "~~See the Site~~ Site currently unpublished."
+							"content": "[See the Site](https://skinio.com)"
 						}
 					]
 				}, {
 					"content": "###Audiograph",
 					"tree": [{
-							"content": "Self-initiated project: music visualizer built with PaperJS. Allows the user to upload his or her own .mp3 files as well."
+							"content": "Self-initiated project: music visualizer built with PaperJS. Allows the user to upload their own .mp3 files as well."
 						}, {
 							"content": "[Play Some Music](http://audiograph.modulo.site)"
 						}, {
@@ -75,17 +65,7 @@
 				}, {
 					"content": "<a class='inline' href='http://erasingthedistance.org'>Erasing the Distance</a> | Service design project for a NPO. Project was primarily focused on making internal financial processes more efficient. Conducted employee and management interviews to create a \"plug-and-play\" pricing calculator."
 				}, {
-					"content": "<a class='inline' href='http://campfires.io'>Campfires.io</a> | Design blog that publishes weekly interviews with notable people in the design world. Sourced, edited, and published the blog copy and media."
-				}
-			]
-		}, {
-			"content": "##Contact",
-			"tree": [{
-					"content": "Phone: [732-685-0791](tel:7326850791)"
-				}, {
-					"content": "Email: [wolfram.rong@gmail.com](mailto:wolfram.rong@gmail.com)"
-				}, {
-					"content": "[LinkedIn](https://www.linkedin.com/in/wolfram74) | [GitHub](https://github.com/w74) | [Codepen](http://codepen.io/w74)"
+					"content": "~~Campfires.io~~ Now a part of <a class='inline' href='https://flatironschool.com/blog'>Flatiron Blog</a> | Design blog that publishes weekly interviews with notable people in the design world. Sourced, edited, and published the blog copy and media."
 				}
 			]
 		}

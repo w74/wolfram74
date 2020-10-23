@@ -3,7 +3,7 @@
 	"tree": [{
 			"content": "##About Me",
 			"tree": [{
-					"content": "Hi! I'm Wolfram and I am a full-stack developer working primarily on the LAMP stack (although the 'A' has now become more 'AWS' than 'Apache'). Outside of coding, I'm a board gamer, movie buff, and tea enthusiast.\n\nI am currently available for freelance projects. You can currently find me in Chicago."
+					"content": "Hi! I'm Wolfram and I am a full-stack developer working primarily on the LAMP stack (although the 'A' has now become more 'AWS' than 'Apache'). Outside of coding, I'm a board gamer, movie buff, and tea enthusiast.\n\nI am currently available for freelance projects. You can find me in Chicago."
 				}, {
 					"content": "Email: [wolfram.rong@gmail.com](mailto:wolfram.rong@gmail.com)"
 				}, {
@@ -13,11 +13,19 @@
 		}, {
 			"content": "##Works",
 			"tree": [{
+					"content": "###Agentis",
+					"tree": [{
+							"content": "Energy usage monitoring platform with a focus on providing business tools for energy efficiency."
+						}, {
+							"content": "[Site](https://www.agentisenergy.com)"
+						}
+					]
+				}, {
 					"content": "###ActiveCampaign",
 					"tree": [{
 							"content": "Email marketing platform. Worked on: feature work both on the back-end (LAMP, Laravel) and front-end (EmberJS), maintaining a large legacy monolith codebase and migrating it to (micro)services, and setting up deployment pipelines using Docker/Kubernetes.\n\nAdditionally worked on creating a CSS design system for our marketing site, internal tooling for developers, and creating a company-wide logging (ELK) and metrics (on DataDog) system."
 						}, {
-							"content": "[See the Site](https://www.activecampaign.com)"
+							"content": "[Site](https://www.activecampaign.com)"
 						}
 					]
 				}, {
